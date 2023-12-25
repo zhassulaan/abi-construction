@@ -9,7 +9,7 @@ import Detail from '@/views/projects/[id].vue';
 const routes = [
   {
     path: '/',
-    component: () => import('@/layouts/Default.vue'),
+    component: () => import('@/layouts/default.vue'),
     children: [
       {
         path: '/',
