@@ -1,0 +1,269 @@
+.team {
+	.main,
+	.achievements,
+	.strategy {
+		display: flex;
+		padding: 0 18.28125vw;
+	}
+	.main,
+	.strategy {
+		justify-content: space-between;
+		&-text {
+			width: 36.35417vw;
+		}
+	}
+	.main {
+		position: relative;
+		margin: 303px 0 219px;
+		.bigtext {
+			width: 82.1645vw;
+		}
+	}
+	.achievements {
+		align-items: center;
+		gap: 7.03125vw;
+		height: 571px;
+		background-color: var(--clr-black);
+		&-content {
+			display: flex;
+			flex-direction: column;
+			gap: 49px;
+			&__title,
+			&__text {
+				color: var(--clr-white);
+			}
+			&__title {
+				width: 27.08333vw;
+			}
+			&__text {
+				width: 30.88542vw;
+			}
+		}
+		&-image {
+			width: calc(100vw / 3);
+			height: 100%;
+			margin-right: -7.8125vw;
+		}
+	}
+	.strategy {
+		margin: 254px 0 189px;
+	}
+	.specialists {
+		padding-top: 34px;
+		&-content {
+			gap: 62px;
+			.description {
+				width: 41.77083vw;
+			}
+		}
+		.members {
+			margin-top: 62px;
+		}
+	}
+	.consultation {
+		margin: 157px 0 168px;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.team {
+		.main {
+			margin: 252.5px 0 182.5px;
+		}
+		.achievements {
+			height: 476px;
+			&-content {
+				gap: 40.83333px;
+			}
+		}
+		.strategy {
+			margin: 211.66667px 0 157.5px;
+		}
+		.specialists {
+			padding-top: 28.33333px;
+			&-content {
+				gap: 51.66667px;
+			}
+			.members {
+				margin-top: 51.66667px;
+			}
+		}
+		.consultation {
+			margin: 130.83333px 0 140px;
+		}
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.team {
+		.main {
+			margin: 227.25px 0 164.25px;
+		}
+		.achievements {
+			height: 428px;
+			&-content {
+				gap: 36.75px;
+			}
+		}
+		.strategy {
+			margin: 190.5px 0 141.75px;
+		}
+		.specialists {
+			padding-top: 25.5px;
+			&-content {
+				gap: 46.5px;
+			}
+			.members {
+				margin-top: 46.5px;
+			}
+		}
+		.consultation {
+			margin: 117.75px 0 126px;
+		}
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.team {
+		.main {
+			margin: 202px 0 146px;
+		}
+		.achievements {
+			height: 381px;
+			&-content {
+				gap: 32.66667px;
+			}
+		}
+		.strategy {
+			margin: 169.33333px 0 126px;
+		}
+		.specialists {
+			padding-top: 22.66667px;
+			&-content {
+				gap: 41.33333px;
+			}
+			.members {
+				margin-top: 41.33333px;
+			}
+		}
+		.consultation {
+			margin: 104.66667px 0 112px;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.team {
+		.main {
+			margin: 161.1px 0 116.8px;
+		}
+		.achievements {
+			height: 305px;
+			&-content {
+				gap: 26.13333px;
+			}
+		}
+		.strategy {
+			margin: 135.46667px 0 100.8px;
+		}
+		.specialists {
+			padding-top: 18.13333px;
+			&-content {
+				gap: 33.06667px;
+			}
+			.members {
+				margin-top: 33.06667px;
+			}
+		}
+		.consultation {
+			margin: 83.73333px 0 89.6px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.team {
+		.main {
+			margin: 156.55px 0 113.15px;
+		}
+		.achievements {
+			height: 295px;
+			&-content {
+				gap: 25.31667px;
+			}
+		}
+		.strategy {
+			margin: 131.23333px 0 97.65px;
+		}
+		.specialists {
+			padding-top: 17.56667px;
+			&-content {
+				gap: 32.03333px;
+			}
+			.members {
+				margin-top: 32.03333px;
+			}
+		}
+		.consultation {
+			margin: 81.11667px 0 86.8px;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.team {
+		.main,
+		.achievements-content,
+		.strategy {
+			padding: 0 5vw;
+		}
+		.main,
+		.strategy {
+			flex-direction: column;
+			gap: 47px;
+			margin-bottom: 89px;
+			&-text {
+				width: 100%;
+			}
+		}
+		.main {
+			margin-top: 116px;
+		}
+		.achievements {
+			flex-direction: column;
+			gap: 87px;
+			height: max-content;
+			padding: 35px 0 0;
+			&-content {
+				gap: 24px;
+				&__title,
+				&__text {
+					width: 100%;
+				}
+			}
+			&-image {
+				width: 100%;
+				height: 89.375vw;
+				margin-right: 0;
+			}
+		}
+		.strategy {
+			margin-top: 89px;
+		}
+		.specialists {
+			padding-top: 0;
+			&-content {
+				gap: 22px;
+				.description {
+					width: 100%;
+				}
+			}
+			.members {
+				margin-top: 84px;
+			}
+		}
+		.consultation {
+			margin: 85px 0 135px;
+		}
+	}
+}

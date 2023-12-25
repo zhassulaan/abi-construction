@@ -1,0 +1,193 @@
+.footer {
+	padding: 83px 18.28125vw 124px;
+	&-logo {
+		width: 97px;
+		height: 83px;
+		margin-right: 9.84375vw;
+	}
+	&-menu {
+		flex-direction: column;
+		gap: 4px;
+	}
+	&-content {
+		display: grid;
+		grid-gap: 60px;
+		margin-left: 13.02083vw;
+		.social,
+		.website {
+			display: flex;
+			align-items: center;
+		}
+		.social {
+			gap: 1.25vw;
+		}
+		.website {
+			gap: 1.30209vw;
+			&-text {
+				color: var(--clr-white);
+				font-family: Montserrat;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.footer {
+		padding: 69.16667px 18.28125vw 103.33333px;
+		&-logo {
+			width: 80.83333px;
+			height: 69.16667px;
+		}
+		&-content {
+			grid-gap: 50px;
+			.social-icon {
+				width: 26.66667px;
+			}
+			.website {
+				&-text {
+					font-size: 14px;
+				}
+				&-logo {
+					width: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.footer {
+		padding: 62.25px 18.28125vw 93px;
+		&-logo {
+			width: 72.75px;
+			height: 62.25px;
+		}
+		&-content {
+			grid-gap: 45px;
+			.social-icon {
+				width: 24px;
+			}
+			.website {
+				&-text {
+					font-size: 12px;
+				}
+				&-logo {
+					width: 27px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.footer {
+		padding: 55.33333px 18.28125vw 82.66667px;
+		&-logo {
+			width: 64.66667px;
+			height: 55.33333px;
+		}
+		&-content {
+			grid-gap: 40px;
+			.social-icon {
+				width: 21.33333px;
+			}
+			.website {
+				&-text {
+					font-size: 11px;
+				}
+				&-logo {
+					width: 24px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.footer {
+		padding: 44.26667px 18.28125vw 66.13333px;
+		&-logo {
+			width: 51.73333px;
+			height: 44.26667px;
+		}
+		&-content {
+			grid-gap: 32px;
+			.social-icon {
+				width: 17.06667px;
+			}
+			.website {
+				&-text {
+					font-size: 9px;
+				}
+				&-logo {
+					width: 19.2px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.footer {
+		padding: 42.88333px 18.28125vw 64.06667px;
+		&-logo {
+			width: 50.11667px;
+			height: 42.88333px;
+		}
+		&-content {
+			grid-gap: 31px;
+			.social-icon {
+				width: 16.53333px;
+			}
+			.website {
+				&-text {
+					font-size: 8px;
+				}
+				&-logo {
+					width: 18.6px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.footer {
+		flex-direction: column;
+		gap: 32px;
+		padding: 24px 7.1875vw;
+		&-logo {
+			width: 65px;
+			height: 56px;
+			margin: 0;
+		}
+		&-menu {
+			grid-gap: 2px;
+			&__text {
+				padding: 10px 0;
+			}
+		}
+		&-content {
+			grid-gap: 49px;
+			margin: 1px 0 10px;
+			.social {
+				gap: 7.5vw;
+				&-icon {
+					width: 32px;
+					height: 32px;
+				}
+			}
+			.website {
+				gap: 0;
+				&-text {
+					width: 51.25vw;
+					font-size: 14px;
+				}
+				&-logo {
+					width: 36px;
+				}
+			}
+		}
+	}
+}

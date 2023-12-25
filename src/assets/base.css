@@ -1,0 +1,33 @@
+:root {
+	--clr-white: #FFF;
+  --clr-black: #000;
+  --clr-grey: #DBDBDB;
+  --clr-grey-1: #9E9E9E;
+  --clr-grey-2: #4A4A4A;
+  --clr-line: #EBEBEB;
+  --clr-active: #D9D9D9;
+  --clr-disabled: #979797;
+}
+
+* {
+	box-sizing: border-box;
+	transition: all;
+	transition-duration: .3s;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: block;
+	width: 100%;
+	font-family: Inter;
+	font-style: normal;
+	margin: 0 auto;
+	&.freeze {
+    overflow: hidden;
+  }
+}

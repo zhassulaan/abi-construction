@@ -1,23 +1,21 @@
 {
-  "name": "nuxt-app",
+  "name": "abico",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.2",
-    "sass": "^1.69.5",
-    "sass-loader": "^13.3.2",
-    "vue": "^3.3.10",
-    "vue-router": "^4.2.5"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.16.2"
+    "axios": "^1.6.2",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.69.5",
+    "vite": "^5.0.10"
   }
 }

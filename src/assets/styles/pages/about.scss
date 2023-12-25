@@ -1,0 +1,525 @@
+.about {
+	.main,
+	.currently,
+	.philosophy,
+	.goal-content {
+		display: flex;
+		padding: 0 18.28125vw;
+	}
+	.main {
+		position: relative;
+		justify-content: space-between;
+		margin: 303px 0 154px;
+		.bigtext {
+			width: 63.4375vw;
+		}
+		&-text {
+			width: 36.35417vw;
+		}
+	}
+	.image {
+		height: 576px;
+	}
+	.currently {
+		margin: 113px 0 198px;
+		&-content {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 0 1.5625vw;
+			margin-top: 16px;
+			&__title {
+				width: 25.52083vw;
+			}
+			&__text {
+				width: 36.35417vw;
+			}
+			&__statictics {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 64px 2.08333vw;
+				&-block {
+					display: grid;
+					grid-gap: 8px;
+					.title {
+						font-size: 100px;
+						font-weight: 600;
+					}
+					.text {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+	.philosophy {
+		position: relative;
+		height: 805px;
+		padding-top: 127px;
+		background-color: var(--clr-black);
+		&-content {
+			width: 30.88547vw;
+			&__subtitle,
+			&__title,
+			&__text {
+				color: var(--clr-white);
+			}
+			&__subtitle {
+				margin: 1px 0 16px;
+			}
+			&__title {
+				margin-bottom: 53px;
+			}
+		}
+		.slider {
+			&-image {
+				right: 10.46875%;
+				bottom: -7.95032%;
+				width: calc(100% / 3);
+				height: 92.17391%;
+			}
+			&-pagination {
+				bottom: 16.02485%;
+				left: 18.22917%;
+			}
+		}
+	}
+	.goal-content,
+	.currently {
+		flex-direction: column;
+	}
+	.goal {
+		text-align: center;
+		margin-top: 233px;
+		&-content {
+			gap: 41px;
+			margin-bottom: 156px;
+			&__title,
+			&__text {
+				width: 52.60417vw;
+				margin: auto;
+			}
+		}
+		&-image {
+			width: 100%;
+			height: 576px;
+			object-position: 100% 82%;
+		}
+	}
+	.specialists {
+		margin-top: 189px;
+		&-content {
+			gap: 19px;
+		}
+		.members {
+			margin: 124px 0 45px;
+		}
+	}
+	.consultation {
+		margin: 141px 0 178px;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.about {
+		.main {
+			margin: 252.5px 0 128.33333px;
+		}
+		.image,
+		.goal-image {
+			height: 480px;
+		}
+		.currently {
+			margin: 94.16667px 0 165px;
+			&-content {
+				margin-top: 13.33333px;
+				&__statictics {
+					grid-gap: 53.33333px 2.08333vw;
+					&-block {
+						grid-gap: 6.66667px;
+						.title {
+							font-size: 83px;
+						}
+						.text {
+							font-size: 17px;
+						}
+					}
+				}
+			}
+		}
+		.philosophy {
+			height: 670.83333px;
+			padding-top: 105.83333px;
+			&-content {
+				&__subtitle {
+					margin: .83333px 0 13.33333px;
+				}
+				&__title {
+					margin-bottom: 44.16667px;
+				}
+			}
+		}
+		.goal {
+			margin-top: 194.16667px;
+			&-content {
+				gap: 34.16667px;
+				margin-bottom: 130px;
+			}
+		}
+		.specialists {
+			margin-top: 157.5px;
+			&-content {
+				gap: 15.83333px;
+			}
+			.members {
+				margin: 103.33333px 0 37.5px;
+			}
+		}
+		.consultation {
+			margin: 117.5px 0 148.33333px;
+		}
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.about {
+		.main {
+			margin: 227.25px 0 115.5px;
+		}
+		.image,
+		.goal-image {
+			height: 432px;
+		}
+		.currently {
+			margin: 84.75px 0 148.5px;
+			&-content {
+				margin-top: 12px;
+				&__statictics {
+					grid-gap: 48px 2.08333vw;
+					&-block {
+						grid-gap: 6px;
+						.title {
+							font-size: 75px;
+						}
+						.text {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+		.philosophy {
+			height: 603.75px;
+			padding-top: 95.25px;
+			&-content {
+				&__subtitle {
+					margin: .75px 0 12px;
+				}
+				&__title {
+					margin-bottom: 39.75px;
+				}
+			}
+		}
+		.goal {
+			margin-top: 233px;
+			&-content {
+				gap: 30.75px;
+				margin-bottom: 117px;
+			}
+		}
+		.specialists {
+			margin-top: 141.75px;
+			&-content {
+				gap: 14.25px;
+			}
+			.members {
+				margin: 93px 0 33.75px;
+			}
+		}
+		.consultation {
+			margin: 105.75px 0 133.5px;
+		}
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.about {
+		.main {
+			margin: 202px 0 102.66667px;
+		}
+		.image,
+		.goal-image {
+			height: 384px;
+		}
+		.currently {
+			margin: 75.33333px 0 132px;
+			&-content {
+				margin-top: 10.66667px;
+				&__statictics {
+					grid-gap: 42.66667px 2.08333vw;
+					&-block {
+						grid-gap: 5.33333px;
+						.title {
+							font-size: 67px;
+						}
+						.text {
+							font-size: 13px;
+						}
+					}
+				}
+			}
+		}
+		.philosophy {
+			height: 536.66667px;
+			padding-top: 84.66667px;
+			&-content {
+				&__subtitle {
+					margin: .66667px 0 10.66667px;
+				}
+				&__title {
+					margin-bottom: 35.33333px;
+				}
+			}
+		}
+		.goal {
+			margin-top: 155.33333px;
+			&-content {
+				gap: 27.33333px;
+				margin-bottom: 104px;
+			}
+		}
+		.specialists {
+			margin-top: 126px;
+			&-content {
+				gap: 12.66667px;
+			}
+			.members {
+				margin: 82.66667px 0 30px;
+			}
+		}
+		.consultation {
+			margin: 94px 0 118.66667px;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.about {
+		.main {
+			margin: 161.6px 0 82.13333px;
+		}
+		.image,
+		.goal-image {
+			height: 307px;
+		}
+		.currently {
+			margin: 60.26667px 0 105.6px;
+			&-content {
+				margin-top: 8.53333px;
+				&__statictics {
+					grid-gap: 34.13333px 2.08333vw;
+					&-block {
+						grid-gap: 4.26667px;
+						.title {
+							font-size: 53px;
+						}
+						.text {
+							font-size: 11px;
+						}
+					}
+				}
+			}
+		}
+		.philosophy {
+			height: 429.33333px;
+			padding-top: 67.73333px;
+			&-content {
+				&__subtitle {
+					margin: .53333px 0 8.53333px;
+				}
+				&__title {
+					margin-bottom: 28.26667px;
+				}
+			}
+		}
+		.goal {
+			margin-top: 124.26667px;
+			&-content {
+				gap: 21.86667px;
+				margin-bottom: 83.2px;
+			}
+		}
+		.specialists {
+			margin-top: 100.8px;
+			&-content {
+				gap: 10.13333px;
+			}
+			.members {
+				margin: 66.13333px 0 24px;
+			}
+		}
+		.consultation {
+			margin: 75.2px 0 94.93333px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.about {
+		.main {
+			margin: 156.55px 0 79.56667px;
+		}
+		.image,
+		.goal-image {
+			height: 298px;
+		}
+		.currently {
+			margin: 58.38333px 0 102.3px;
+			&-content {
+				margin-top: 8.26667px;
+				&__statictics {
+					grid-gap: 33.06667px 2.08333vw;
+					&-block {
+						grid-gap: 4.13333px;
+						.title {
+							font-size: 52px;
+						}
+						.text {
+							font-size: 10px;
+						}
+					}
+				}
+			}
+		}
+		.philosophy {
+			height: 415.91667px;
+			padding-top: 65.61667px;
+			&-content {
+				&__subtitle {
+					margin: .51667px 0 8.26667px;
+				}
+				&__title {
+					margin-bottom: 27.38333px;
+				}
+			}
+		}
+		.goal {
+			margin-top: 120.38333px;
+			&-content {
+				gap: 21.18333px;
+				margin-bottom: 80.6px;
+			}
+		}
+		.specialists {
+			margin-top: 97.65px;
+			&-content {
+				gap: 9.81667px;
+			}
+			.button {
+				margin: 64.06667px 0 23.25px;
+			}
+		}
+		.consultation {
+			margin: 72.85px 0 91.96667px;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.about {
+		.main,
+		.currently,
+		.philosophy,
+		.goal-content {
+			padding: 0 5vw;
+		}
+		.main {
+			flex-direction: column;
+			gap: 47px;
+			margin: 116px 0 50px;
+			&-text {
+				width: 100%;
+			}
+		}
+		.image {
+			height: 164px;
+		}
+		.currently {
+			margin: 86px 0 142px;
+			&-content {
+				grid-template-columns: repeat(1, 1fr);
+				grid-gap: 41px;
+				margin-top: 10px;
+				&__title,
+				&__text {
+					width: 100%;
+				}
+				&__text {
+					font-size: 20px;
+				}
+				&__statictics {
+					grid-gap: 35px 5vw;
+					&-block {
+						.title {
+							font-size: 60px;
+						}
+						.text {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+		.philosophy {
+			height: 720px;
+			padding-top: 25px;
+			&-content {
+				width: 100%;
+				&__subtitle {
+					margin: 10px 0;
+				}
+				&__title {
+					margin-bottom: 24px;
+				}
+			}
+			.slider {
+				&-image {
+					right: 0%;
+					bottom: 0%;
+					width: 100%;
+					height: 39.72222%;
+				}
+				&-pagination {
+					bottom: 45.13889%;
+					left: 5%;
+				}
+			}
+		}
+		.goal {
+			margin-top: 74px;
+			text-align: left;
+			&-content {
+				gap: 45px;
+				margin-bottom: 35px;
+				&__title,
+				&__text {
+					width: 100%;
+				}
+			}
+			&-image {
+				height: 332px;
+			}
+		}
+		.specialists {
+			margin-top: 87px;
+			&-content {
+				gap: 11px;
+			}
+			.members {
+				margin: 35px 0;
+			}
+		}
+		.consultation {
+			margin: 70px 0 86px;
+		}
+	}
+}
